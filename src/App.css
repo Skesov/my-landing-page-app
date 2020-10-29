@@ -1,9 +1,19 @@
 body {
   background-color: #fff;
-
+  font-family: "Montserrat", sans-serif;
 }
 .startpage {
   height: 600px;
-  background-color: #eee;
-  background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
+  /* background-color: #eee; */
+  /* background-image: url("https://www.transparenttextures.com/patterns/cubes.png"); */
+}
+
+#greeting {
+  min-height: 400px;
+}
+
+.greeting-heading {
+  font-weight: 500;
+  margin-top: 4rem;
+  font-size: 2.1rem;
 }
