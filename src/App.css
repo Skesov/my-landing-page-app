@@ -40,6 +40,10 @@ body {
   margin-top: 6rem;
 }
 
+#photo {
+  width: 430px;
+}
+
 /* lists */
 
 .list-rectangle {
