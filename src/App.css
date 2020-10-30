@@ -4,7 +4,6 @@ body {
   background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
 }
 
-
 /* header section */
 
 .navbar {
@@ -13,14 +12,12 @@ body {
   z-index: +1;
 }
 
-
 #header-title {
   font-family: "Alfa Slab One", cursive;
   font-size: 1.5rem;
 }
 
 /* Content section */
-
 
 .block {
   margin: 4.5rem auto;
@@ -43,7 +40,6 @@ body {
   margin-top: 6rem;
 }
 
-
 /* lists */
 
 .list-rectangle {
@@ -51,18 +47,21 @@ body {
   margin: 0;
   padding: 0;
 }
-.list-rectangle>li {
+
+.list-rectangle > li {
   position: relative;
   display: block;
-  margin-bottom: .25rem;
-  padding: .325rem .825rem .325rem 1.325rem;
+  margin-bottom: 0.25rem;
+  padding: 0.325rem 0.825rem 0.325rem 1.325rem;
   color: #fff;
   background: #555555;
 }
-.list-rectangle>li:last-child {
+
+.list-rectangle > li:last-child {
   margin-bottom: 0;
 }
-.list-rectangle>li::before {
+
+.list-rectangle > li::before {
   content: "";
   position: absolute;
   left: 0;
@@ -76,8 +75,27 @@ body {
   color: #cdc9c3;
 }
 
-
-@media (min-width: 576px)
-.jumbotron {
+/* @media (max-width: 576px) {
+  .jumbotron {
     padding: 0rem 2rem;
+  }
+} */
+
+@media (max-width: 768px) {
+  #photo {
+    width: 400px;
+  }
+
+  .greeting-heading {
+    margin-top: 1rem;
+}
+
+.block {
+  margin: 2.5rem auto;
+}
+
+.block h2 {
+  padding-bottom: 0.8rem;
+}
+
 }

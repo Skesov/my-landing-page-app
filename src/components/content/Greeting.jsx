@@ -20,7 +20,7 @@ function Greeting(props) {
             </p>
           </Col>
           <Col md="5">
-            <Image src={photo} alt="me" rounded />
+            <Image id='photo' src={photo} alt="me" rounded />
           </Col>
         </Row>
       </Container>
