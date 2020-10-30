@@ -11,7 +11,7 @@ function StartPage(props) {
 
   return (
     <Jumbotron >
-      <Container className='startpage'>
+      <Container className='startpage block'>
         <h1>Добрый день!</h1>
         <p>Давайте познакомимся, введите ваше имя в поле ниже.</p>
 

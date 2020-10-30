@@ -24,9 +24,7 @@ body {
 }
 
 .startpage {
-  height: 600px;
-  /* background-color: #eee; */
-  /* background-image: url("https://www.transparenttextures.com/patterns/cubes.png"); */
+  margin: 9rem auto;
 }
 
 #greeting {
