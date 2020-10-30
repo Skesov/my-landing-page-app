@@ -10,15 +10,18 @@ function StartPage(props) {
   }
 
   return (
-    <Jumbotron >
-      <Container className='startpage'>
+    <Jumbotron>
+      <Container className="startpage">
         <h1>Добрый день!</h1>
         <p>Давайте познакомимся, введите ваше имя в поле ниже.</p>
 
-        <Form className="form-inline mt-2 mt-md-0" onSubmit={(event)=> {
-          props.takeName(name);
-          event.preventDefault();
-        }}>
+        <Form
+          className="form-inline mt-2 mt-md-0"
+          onSubmit={(event) => {
+            props.takeName(name);
+            event.preventDefault();
+          }}
+        >
           <Form.Group controlId="userName">
             <Form.Control
               onChange={handleChange}
