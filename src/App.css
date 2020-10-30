@@ -72,7 +72,7 @@ body {
 }
 
 .mern {
-  color: #cdc9c3;
+  color: hsl(0, 92%, 63%);
 }
 
 /* @media (max-width: 576px) {
@@ -83,7 +83,7 @@ body {
 
 @media (max-width: 768px) {
   #photo {
-    width: 400px;
+    width: 100%;
   }
 
   .greeting-heading {
@@ -96,11 +96,5 @@ body {
 
   .block h2 {
     padding-bottom: 0.8rem;
-  }
-}
-
-@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
-  #photo {
-    width: 80%;
   }
 }

@@ -15,14 +15,14 @@ function Stack(props) {
           <li><span className='mern'>E</span>xpress</li>
           <li><span className='mern'>R</span>eact</li>
           <li><span className='mern'>N</span>ode.js</li>
-          <li>принципы Rest API</li>
+          <li>Rest API</li>
         </ul>
         <br />
         <p>
           Конечно же, это не ответ на вопрос в заголовке. На данном этапе я могу
           запустить сервер на Node.js с модулем express, собрать модульную внешку в React и даже подключить его к базе MongoDB используя фреймворк
           Mongoose, а сверху ещё авторизацию через модуль Passport. В общем,
-          думаю это неплохая идея для первого личного проекта (MERN stack) в портфолио и
+          думаю это неплохая идея для первого личного MERN stack проекта в портфолио и
           после создания этой страницы я этим и займусь.
         </p>
         <p>
