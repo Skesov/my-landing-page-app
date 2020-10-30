@@ -5,7 +5,7 @@ function Header(props) {
   return (
     <Navbar bg="dark" variant="dark" expand="lg">
       <Container>
-        <Navbar.Brand>Skesov</Navbar.Brand>
+        <Navbar.Brand id='header-title'>Skesov</Navbar.Brand>
         {props.showMenu ? (
           <div>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />

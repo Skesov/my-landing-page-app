@@ -7,10 +7,10 @@ function Greeting(props) {
 
   return (
     <section className="jumbotron" id="greeting">
-      <Container>
+      <Container className='block'>
         <Row>
           <Col md="7">
-            <h2 className="greeting-heading">Приятно познакомиться {name}</h2>
+            <h2 className="greeting-heading h2">Приятно познакомиться {name}</h2>
             <p className="lead">
               Меня зовут Владимир Скесов и я начинающий веб-разработчик. Думаю
               нас таких в последние время много развелось, поэтому я пытаюсь

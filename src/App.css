@@ -1,7 +1,28 @@
 body {
   background-color: #fff;
   font-family: "Montserrat", sans-serif;
+  background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
 }
+
+
+/* header section */
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  z-index: +1;
+}
+
+#header-title {
+  font-family: "Alfa Slab One", cursive;
+  font-size: 1.5rem;
+}
+
+/* Content section */
+.block {
+  margin: 6rem auto;
+}
+
 .startpage {
   height: 600px;
   /* background-color: #eee; */
@@ -10,10 +31,38 @@ body {
 
 #greeting {
   min-height: 400px;
+  font-size: 1.1rem;
 }
 
 .greeting-heading {
-  font-weight: 500;
-  margin-top: 4rem;
-  font-size: 2.1rem;
+  margin-top: 6rem;
+}
+
+
+/* lists */
+
+.list-rectangle {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.list-rectangle>li {
+  position: relative;
+  display: block;
+  margin-bottom: .25rem;
+  padding: .325rem .825rem .325rem 1.325rem;
+  color: #fff;
+  background: #C2185B;
+}
+.list-rectangle>li:last-child {
+  margin-bottom: 0;
+}
+.list-rectangle>li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 0.5rem;
+  background: #ec407a;
 }
