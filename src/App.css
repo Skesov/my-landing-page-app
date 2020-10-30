@@ -88,14 +88,19 @@ body {
 
   .greeting-heading {
     margin-top: 1rem;
+  }
+
+  .block {
+    margin: 2.5rem auto;
+  }
+
+  .block h2 {
+    padding-bottom: 0.8rem;
+  }
 }
 
-.block {
-  margin: 2.5rem auto;
-}
-
-.block h2 {
-  padding-bottom: 0.8rem;
-}
-
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+  #photo {
+    width: 80%;
+  }
 }
