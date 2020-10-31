@@ -3,7 +3,7 @@ import { Container, Navbar, Nav } from "react-bootstrap";
 
 function Header(props) {
   return (
-    <Navbar bg="dark" variant="dark" expand="lg">
+    <Navbar variant="dark" expand="lg">
       <Container>
         <Navbar.Brand id='header-title'>Skesov</Navbar.Brand>
         {props.showMenu ? (

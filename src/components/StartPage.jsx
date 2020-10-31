@@ -31,7 +31,7 @@ function StartPage(props) {
             />
           </Form.Group>
 
-          <Button type="submit" className="btn my-2 my-sm-0">
+          <Button type="submit" variant="secondary" className="btn my-2 my-sm-0">
             Продолжить
           </Button>
         </Form>

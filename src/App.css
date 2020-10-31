@@ -4,9 +4,24 @@ body {
   background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
 }
 
+a {
+  color: hsl(0, 92%, 63%);
+}
+
+a:hover {
+  color: hsl(0, 92%, 63%);
+}
+
+h2 {
+  font-size: 1, 5em;
+  font-weight: 600px;
+  font-family: "Lobster", cursive;
+}
+
 /* header section */
 
 .navbar {
+  background-color: #555555;
   position: fixed;
   width: 100%;
   z-index: +1;
@@ -18,6 +33,10 @@ body {
 }
 
 /* Content section */
+
+.jumbotron {
+  background-color: #fbf7f0;
+}
 
 .block {
   margin: 4.5rem auto;
@@ -37,19 +56,88 @@ body {
 }
 
 .greeting-heading {
-  margin-top: 6rem;
+  margin-top: 5rem;
 }
 
 #photo {
   width: 430px;
 }
 
+/* Stack section  */
+
+.stack-grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(4, auto);
+}
+
+.stack-item-1 {
+  grid-row: 1 / 2;
+  grid-column: 1 / 2;
+}
+
+.stack-item-2 {
+  grid-row: 1 / 4;
+  justify-self: center;
+  margin-bottom: 10px;
+}
+
+.stack-item-3 {
+  grid-row: 2 / 3;
+}
+
+/* Contacts section  */
+
+#contacts {
+  text-align: center;
+}
+
+.contacts-grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 100px;
+}
+
+.contacts-item {
+  justify-self: center;
+  align-self: center;
+  font-size: 1.2rem;
+  padding-top: 25px;
+}
+
+.contacts-subtitle {
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-size: 1.25rem;
+  margin: 20px auto 0;
+  color: #999999 !important;
+}
+
+.contacts-grid-container a {
+  color: #444;
+  font-size: 1.125rem;
+  margin: 20px auto 0;
+  letter-spacing: 1px;
+  line-height: 1.8;
+  /* font-weight: 500; */
+}
+
+.contacts-grid-container a:hover {
+  color: #555555;
+}
+
 /* lists */
 
 .list-rectangle {
+  width: 400px;
   list-style: none;
   margin: 0;
   padding: 0;
+}
+
+.list-rectangle a {
+  color: #fbf7f0;
 }
 
 .list-rectangle > li {
@@ -79,14 +167,14 @@ body {
   color: hsl(0, 92%, 63%);
 }
 
-/* @media (max-width: 576px) {
-  .jumbotron {
-    padding: 0rem 2rem;
-  }
-} */
 
 @media (max-width: 768px) {
+
   #photo {
+    width: 100%;
+  }
+
+  .list-rectangle {
     width: 100%;
   }
 
@@ -101,4 +189,32 @@ body {
   .block h2 {
     padding-bottom: 0.8rem;
   }
+/* Contacts section  */
+.contacts-grid-container {
+  display: grid;
+  grid-template-columns: auto;
+}
+
+  /* Stack section  */
+
+.stack-grid-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, auto);
+}
+
+.stack-item-1 {
+  grid-row: 1 / 2;
+}
+
+.stack-item-2 {
+  grid-row: 2 / 3;
+  justify-self: stretch;
+}
+
+.stack-item-3 {
+  grid-row: 3 / 4;
+}
+
+
 }
