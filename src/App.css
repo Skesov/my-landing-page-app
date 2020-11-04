@@ -38,6 +38,10 @@ h2 {
   font-size: 1.5rem;
 }
 
+.navigation-aria {
+  text-align: right;
+}
+
 /* Content section */
 
 .jumbotron {
