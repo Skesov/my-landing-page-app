@@ -40,15 +40,6 @@ function Contacts(props) {
             </a>
           </div>
         </div>
-        <br />
-        <p>
-          А также, вы можете посетить мой{" "}
-          <a href="https://github.com/Skesov" target="blank">
-            GitHub
-          </a>
-          , на котором будут находиться исходники данного и следующих моих
-          проектов.
-        </p>
       </Container>
     </section>
   );

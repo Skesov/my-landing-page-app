@@ -10,16 +10,16 @@ function Greeting(props) {
       <Container className="block">
         <Row>
           <Col md="7">
-            <h2 className="greeting-heading">
-              Приятно познакомиться {name}
-            </h2>
+            <h2 className="greeting-heading">Приятно познакомиться {name}</h2>
             <p className="lead">
               Меня зовут Владимир Скесов и я начинающий веб-разработчик. Думаю
               нас таких в последние время много развелось, поэтому пытаюсь
               выделиться за счет этой страницы. На данный момент сайт работает в
               связке Node.js + Express и React + Bootstrap. Размещен на Heroku,
-              а исходный код приложения вы можете посмотреть на моём GitHub
-              (ссылка в разделе контактов, но там пока только этот сайт).
+              а исходный код приложения вы можете посмотреть на моём{" "}
+              <a href="https://github.com/Skesov" target="blank">
+                GitHub
+              </a>.
             </p>
           </Col>
           <Col md="5">
