@@ -18,6 +18,12 @@ h2 {
   font-family: "Lobster", cursive;
 }
 
+.footnote {
+  color: #555;
+  font-size: 0.8rem;
+  font-weight: 300;
+}
+
 /* header section */
 
 .navbar {

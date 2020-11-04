@@ -31,10 +31,20 @@ function StartPage(props) {
             />
           </Form.Group>
 
-          <Button type="submit" variant="secondary" className="btn my-2 my-sm-0">
+          <Button
+            type="submit"
+            variant="secondary"
+            className="btn my-2 my-sm-0"
+          >
             Продолжить
           </Button>
         </Form>
+        <br />
+        <p className="footnote">
+          Ваши данные нигде не сохраняются, данное приложение используют только
+          React.useState(). Сброс произойдет при закрытии или перезагрузке
+          страницы.
+        </p>
       </Container>
     </Jumbotron>
   );
