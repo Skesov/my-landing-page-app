@@ -1,6 +1,6 @@
 import React from "react";
 import { Row, Container, Col, Image } from "react-bootstrap";
-import photo from "../../photo.jpg";
+import photo from "./photo.jpg";
 
 function Greeting(props) {
   const name = props.name || "Владислав";
