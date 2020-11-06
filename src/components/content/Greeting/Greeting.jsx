@@ -7,7 +7,7 @@ function Greeting(props) {
   const name = props.name || "Владислав";
 
   return (
-    <section className="jumbotron" id={s.greeting}>
+    <section className={`jumbotron ${s.greeting}`} id='greeting'>
       <Container className="block">
         <Row>
           <Col md="7">

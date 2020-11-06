@@ -11,7 +11,7 @@ function Contacts(props) {
   const phone = process.env.REACT_APP_PHONE;
   const telegram = process.env.REACT_APP_TELEGRAM;
   return (
-    <section id={s.contacts}>
+    <section className={s.contacts} id='contacts'>
       <Container className="block">
         <h2>Как со мной можно связаться</h2>
 
