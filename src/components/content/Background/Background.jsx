@@ -1,7 +1,7 @@
 import React from "react";
 import { Container } from "react-bootstrap";
-// import { Container, Col, Image } from "react-bootstrap";
-
+// import s from "./Background.module.css";
+ 
 function Background(props) {
   return (
     <section id="background">

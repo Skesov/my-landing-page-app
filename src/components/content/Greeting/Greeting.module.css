@@ -1,0 +1,22 @@
+#greeting {
+  min-height: 400px;
+  font-size: 1.1rem;
+}
+
+.header {
+  margin-top: 5rem;
+}
+
+#photo {
+  width: 430px;
+}
+
+@media (max-width: 975px) {
+  #photo {
+    width: 100%;
+  }
+
+  .header {
+    margin-top: 1rem;
+  }
+}

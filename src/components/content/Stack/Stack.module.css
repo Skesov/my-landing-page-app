@@ -60,7 +60,13 @@
 }
 
 @media (max-width: 975px) {
-  .grid-container {
+
+  .list {
+    width: 100%;
+  }
+
+  .stack {
+    text-align: justify;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(3, auto);

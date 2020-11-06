@@ -1,6 +1,6 @@
 import React from "react";
 import { Container } from "react-bootstrap";
-import s from "./Styles.module.css";
+import s from "./Stack.module.css";
 
 function Stack(props) {
   return (

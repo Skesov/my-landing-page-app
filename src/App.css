@@ -42,7 +42,7 @@ h2 {
   text-align: right;
 }
 
-/* Content section */
+/* Content */
 
 .jumbotron {
   background-color: #fbf7f0;
@@ -60,72 +60,7 @@ h2 {
   margin: 9rem auto;
 }
 
-#greeting {
-  min-height: 400px;
-  font-size: 1.1rem;
-}
-
-.greeting-heading {
-  margin-top: 5rem;
-}
-
-#photo {
-  width: 430px;
-}
-
-/* Contacts section  */
-
-#contacts {
-  text-align: center;
-}
-
-.contacts-grid-container {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  column-gap: 100px;
-}
-
-.contacts-item {
-  justify-self: center;
-  align-self: center;
-  font-size: 1.2rem;
-  padding-top: 25px;
-}
-
-.contacts-subtitle {
-  font-weight: 700;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  font-size: 1.25rem;
-  margin: 20px auto 0;
-  color: #999999 !important;
-}
-
-.contacts-grid-container a {
-  color: #444;
-  font-size: 1.125rem;
-  margin: 20px auto 0;
-  letter-spacing: 1px;
-  line-height: 1.8;
-  /* font-weight: 500; */
-}
-
-.contacts-grid-container a:hover {
-  color: #555555;
-}
-
 @media (max-width: 975px) {
-  #photo {
-    width: 100%;
-  }
-
-  .list-rectangle {
-    width: 100%;
-  }
-
-  .greeting-heading {
-    margin-top: 1rem;
-  }
 
   .block {
     margin: 2.5rem auto;
@@ -133,9 +68,5 @@ h2 {
 
   .block h2 {
     padding-bottom: 0.8rem;
-  }
-  /* Contacts section  */
-  .contacts-grid-container {
-    grid-template-columns: auto;
   }
 }

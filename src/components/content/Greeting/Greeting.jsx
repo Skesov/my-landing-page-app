@@ -1,16 +1,17 @@
 import React from "react";
 import { Row, Container, Col, Image } from "react-bootstrap";
 import photo from "./photo.jpg";
+import s from "./Greeting.module.css";
 
 function Greeting(props) {
   const name = props.name || "Владислав";
 
   return (
-    <section className="jumbotron" id="greeting">
+    <section className="jumbotron" id={s.greeting}>
       <Container className="block">
         <Row>
           <Col md="7">
-            <h2 className="greeting-heading">Приятно познакомиться {name}</h2>
+            <h2 className={s.header}>Приятно познакомиться {name}</h2>
             <p className="lead">
               Меня зовут Владимир Скесов и я начинающий веб-разработчик. Думаю
               нас таких в последние время много развелось, поэтому пытаюсь
@@ -19,11 +20,12 @@ function Greeting(props) {
               а исходный код приложения вы можете посмотреть на моём{" "}
               <a href="https://github.com/Skesov" target="blank">
                 GitHub
-              </a>.
+              </a>
+              .
             </p>
           </Col>
           <Col md="5">
-            <Image id="photo" src={photo} alt="me" rounded />
+            <Image id={s.photo} src={photo} alt="me" rounded />
           </Col>
         </Row>
       </Container>
